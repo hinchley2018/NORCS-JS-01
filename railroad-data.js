@@ -1,3 +1,4 @@
+//https://digitalskills.instructure.com/courses/2863/pages/data-extract-5-dot-2-1?module_item_id=348214
 let railroad_cars = 
 [
     {"type": "gondola", "quantity": 7,"insured": true, "operational":true, "pricePer": 3800},
@@ -13,7 +14,7 @@ let non_operational_vehicles = []
 for (let index = 0; index < railroad_cars.length; index++) {
     let rr_car = railroad_cars[index];
     console.log("rr_car I'm looking at", rr_car)
-    if(!rr_car.operational){
+    if(!rr_car.operational){//short-hand for rr_car.operation !== true
         non_operational_vehicles.push(rr_car)
     }
 }
