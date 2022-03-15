@@ -27,4 +27,3 @@ else -> $100
 */
 
 
-if (associateBanker.years === 1 &&  
